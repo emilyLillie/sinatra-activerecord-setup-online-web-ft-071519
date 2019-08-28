@@ -10,4 +10,7 @@ class CreateDogs < ActiveRecord::Migration[5.2]
    drop_table :dogs 
   end
   
+  # or make it shorter with 'change' bc the down method is included in the rollback 
+  
+  
 end
